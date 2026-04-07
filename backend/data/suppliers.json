@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Solutions Inc",
+    "city": "New York"
+  },
+  {
+    "id": 2,
+    "name": "Office Supplies Co",
+    "city": "Los Angeles"
+  },
+  {
+    "id": 3,
+    "name": "Electronics Hub",
+    "city": "Chicago"
+  },
+  {
+    "id": 4,
+    "name": "Furniture World",
+    "city": "Houston"
+  },
+  {
+    "id": 5,
+    "name": "Stationery Mart",
+    "city": "San Francisco"
+  },
+  {
+    "id": 6,
+    "name": "Global Traders",
+    "city": "Boston"
+  },
+  {
+    "id": 7,
+    "name": "nitish",
+    "city": "ranchi"
+  }
+]

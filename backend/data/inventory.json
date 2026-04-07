@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "productName": "Laptop",
+    "category": "Electronics",
+    "price": 999.99,
+    "quantity": 5,
+    "supplier": "Tech Solutions Inc"
+  },
+  {
+    "id": 2,
+    "productName": "Mouse",
+    "category": "Electronics",
+    "price": 25.5,
+    "quantity": 20,
+    "supplier": "Electronics Hub"
+  },
+  {
+    "id": 3,
+    "productName": "Office Chair",
+    "category": "Furniture",
+    "price": 150,
+    "quantity": 10,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 4,
+    "productName": "Notebook",
+    "category": "Stationery",
+    "price": 2.99,
+    "quantity": 100,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 5,
+    "productName": "Smartphone",
+    "category": "Electronics",
+    "price": 699.99,
+    "quantity": 15,
+    "supplier": "Electronics Hub"
+  },
+  {
+    "id": 6,
+    "productName": "Headphones",
+    "category": "Electronics",
+    "price": 89.99,
+    "quantity": 30,
+    "supplier": "Tech Solutions Inc"
+  },
+  {
+    "id": 7,
+    "productName": "Office Chair",
+    "category": "Furniture",
+    "price": 120,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 8,
+    "productName": "Laptop",
+    "category": "Electronics",
+    "price": 800,
+    "supplier": "TechWorld"
+  },
+  {
+    "id": 9,
+    "productName": "Desk",
+    "category": "Furniture",
+    "price": 200,
+    "supplier": "HomeStore"
+  },
+  {
+    "id": 10,
+    "productName": "Pen Pack",
+    "category": "Stationery",
+    "price": 10,
+    "supplier": "OfficeMart"
+  },
+  {
+    "id": 11,
+    "productName": "Notebook",
+    "category": "Stationery",
+    "price": 15,
+    "supplier": "OfficeMart"
+  },
+  {
+    "id": 12,
+    "supplier": "Tech Solutions Inc",
+    "productName": "Laptop",
+    "category": "Electronics",
+    "quantity": 5,
+    "price": 900
+  },
+  {
+    "id": 13,
+    "supplier": "Tech Solutions Inc",
+    "productName": "Desktop PC",
+    "category": "Electronics",
+    "quantity": 3,
+    "price": 1200
+  },
+  {
+    "id": 14,
+    "supplier": "Electronics Hub",
+    "productName": "Monitor",
+    "category": "Electronics",
+    "quantity": 7,
+    "price": 300
+  },
+  {
+    "id": 15,
+    "supplier": "Electronics Hub",
+    "productName": "Keyboard",
+    "category": "Electronics",
+    "quantity": 20,
+    "price": 25
+  },
+  {
+    "id": 16,
+    "supplier": "Electronics Hub",
+    "productName": "Mouse",
+    "category": "Electronics",
+    "quantity": 25,
+    "price": 15
+  },
+  {
+    "id": 17,
+    "supplier": "Office Supplies Co",
+    "productName": "Office Chair",
+    "category": "Furniture",
+    "quantity": 10,
+    "price": 150
+  },
+  {
+    "id": 18,
+    "supplier": "Furniture World",
+    "productName": "Office Desk",
+    "category": "Furniture",
+    "quantity": 6,
+    "price": 250
+  },
+  {
+    "id": 19,
+    "supplier": "Furniture World",
+    "productName": "Bookshelf",
+    "category": "Furniture",
+    "quantity": 4,
+    "price": 180
+  },
+  {
+    "id": 20,
+    "supplier": "Furniture World",
+    "productName": "Conference Table",
+    "category": "Furniture",
+    "quantity": 2,
+    "price": 500
+  },
+  {
+    "id": 21,
+    "supplier": "Stationery Mart",
+    "productName": "Notebook",
+    "category": "Stationery",
+    "quantity": 50,
+    "price": 5
+  },
+  {
+    "id": 22,
+    "supplier": "Stationery Mart",
+    "productName": "Pen Pack",
+    "category": "Stationery",
+    "quantity": 100,
+    "price": 10
+  },
+  {
+    "id": 23,
+    "supplier": "Stationery Mart",
+    "productName": "Marker Set",
+    "category": "Stationery",
+    "quantity": 30,
+    "price": 12
+  },
+  {
+    "id": 24,
+    "supplier": "Stationery Mart",
+    "productName": "Stapler",
+    "category": "Stationery",
+    "quantity": 20,
+    "price": 8
+  },
+  {
+    "id": 25,
+    "supplier": "Global Traders",
+    "productName": "Printer",
+    "category": "Electronics",
+    "quantity": 3,
+    "price": 200
+  },
+  {
+    "id": 26,
+    "supplier": "Global Traders",
+    "productName": "Scanner",
+    "category": "Electronics",
+    "quantity": 2,
+    "price": 180
+  },
+  {
+    "id": 16,
+    "supplier": "Global Traders",
+    "productName": "Router",
+    "category": "Electronics",
+    "quantity": 8,
+    "price": 60
+  },
+  {
+    "id": 17,
+    "supplier": "Office Supplies Co",
+    "productName": "Filing Cabinet",
+    "category": "Furniture",
+    "quantity": 5,
+    "price": 220
+  },
+  {
+    "id": 18,
+    "supplier": "Office Supplies Co",
+    "productName": "Desk Lamp",
+    "category": "Electronics",
+    "quantity": 12,
+    "price": 35
+  },
+  {
+    "productName": "laoptop",
+    "quantity": 5,
+    "price": 500,
+    "supplier": "s"
+  },
+  {
+    "id": 199,
+    "productName": "Office Chair",
+    "category": "Furniture",
+    "price": 120,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 28,
+    "productName": "Office Desk",
+    "category": "Furniture",
+    "price": 250,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 93,
+    "productName": "Laptop",
+    "category": "Electronics",
+    "price": 750,
+    "supplier": "Tech Imports"
+  },
+  {
+    "id": 49,
+    "productName": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 120,
+    "supplier": "Tech Imports"
+  },
+  {
+    "id": 53,
+    "productName": "Mouse",
+    "category": "Electronics",
+    "price": 40,
+    "supplier": "Tech Imports"
+  },
+  {
+    "id": 600,
+    "productName": "Printer",
+    "category": "Electronics",
+    "price": 220,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 70,
+    "productName": "Notepad",
+    "category": "Stationery",
+    "price": 15,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 89,
+    "productName": "Pen Set",
+    "category": "Stationery",
+    "price": 30,
+    "supplier": "Office Supplies Co"
+  },
+  {
+    "id": 95,
+    "productName": "Filing Cabinet",
+    "category": "Furniture",
+    "price": 180,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 120,
+    "productName": "Desk Lamp",
+    "category": "Furniture",
+    "price": 65,
+    "supplier": "ABC Traders"
+  },
+  {
+    "id": 31,
+    "productName": "Monitor Stand",
+    "category": "Furniture",
+    "price": 80,
+    "supplier": "Tech Imports"
+  },
+  {
+    "id": 32,
+    "productName": "USB Cable",
+    "category": "Electronics",
+    "price": 20,
+    "supplier": "Electro Goods Ltd"
+  },
+  {
+    "id": 601,
+    "productName": "LED Light",
+    "category": "Electronics",
+    "quantity": 5,
+    "price": 60,
+    "supplier": "nitish"
+  }
+]

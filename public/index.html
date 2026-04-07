@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeerostock – Inventory Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar / Tabs (ADDED) -->
+  <nav class="nav-tabs">
+  <!-- Logo -->
+  <div class="nav-logo">
+    <span class="logo-text">🔎Simple Inventory</span>
+  </div>
+
+  <!-- Tabs -->
+  <div class="nav-tabs-container">
+    <button class="tab-btn active" data-tab="search">Search</button>
+    <button class="tab-btn" data-tab="supplier">Supplier</button>
+    <button class="tab-btn" data-tab="inventory">Inventory</button>
+    <button class="tab-btn" data-tab="by-supplier">By Supplier</button>
+  </div>
+</nav>
+
+  <!-- 1) Search Tab -->
+  <section id="search" class="tab-content active">
+    <h2>Search Inventory</h2>
+
+    <form id="searchForm" class="card">
+      <div class="form-row">
+        <label>Product name</label>
+        <input type="text" id="q" placeholder="e.g. laptop, chair" />
+      </div>
+
+      <div class="form-row">
+        <label>Category</label>
+        <select id="category">
+          <option value="">All</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Stationery">Stationery</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Min Price</label>
+        <input type="number" id="minPrice" placeholder="0" min="0" />
+      </div>
+
+      <div class="form-row">
+        <label>Max Price</label>
+        <input type="number" id="maxPrice" placeholder="500" min="0" />
+      </div>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+  </section>
+
+  <!-- 2) Supplier Tab -->
+  <section id="supplier" class="tab-content">
+    <h2>Supplier</h2>
+
+    <form id="supplierForm" class="card">
+      <div class="form-row">
+        <label>Supplier Name</label>
+        <input type="text" id="supplierName" placeholder="e.g. ABC Traders" required />
+      </div>
+
+      <div class="form-row">
+        <label>City</label>
+        <input type="text" id="supplierCity" placeholder="e.g. Delhi" />
+      </div>
+
+      <button type="submit">Add Supplier</button>
+    </form>
+
+    <div id="supplierList"></div>
+  </section>
+
+  <!-- 3) Inventory Tab -->
+  <section id="inventory" class="tab-content">
+    <h2>Inventory</h2>
+
+    <form id="inventoryForm" class="card">
+      <div class="form-row">
+        <label>Product Name</label>
+        <input type="text" id="productName" placeholder="e.g. Laptop" required />
+      </div>
+
+      <div class="form-row">
+        <label>Category</label>
+        <select id="inventoryCategory">
+          <option value="">Select</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Stationery">Stationery</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Quantity</label>
+        <input type="number" id="quantity" placeholder="e.g. 10" min="0" />
+      </div>
+
+      <div class="form-row">
+        <label>Price</label>
+        <input type="number" id="inventoryPrice" placeholder="e.g. 750" min="0.01" step="0.01" />
+      </div>
+
+      <div class="form-row">
+        <label>Supplier</label>
+        <select id="supplierSelect" required>
+          <option value="">Select Supplier</option>
+        </select>
+      </div>
+
+      <button type="submit">Add Inventory Item</button>
+    </form>
+
+    <div id="inventoryList"></div>
+  </section>
+
+  <!-- 4) By Supplier Tab -->
+  <section id="by-supplier" class="tab-content">
+    <h2>Inventory by Supplier</h2>
+    <p class="subtitle">
+      Shows all inventory grouped by supplier, sorted by total inventory value (quantity × price).
+    </p>
+
+    <div id="supplierInventoryReport"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
