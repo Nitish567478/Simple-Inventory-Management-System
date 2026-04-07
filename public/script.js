@@ -24,7 +24,7 @@ const supplierList = document.getElementById("supplierList");
 
 async function loadSuppliers() {
   try {
-    const res = await fetch("http://localhost:3000/suppliers");
+    const res = await fetch("https://simple-inventory-management-system-6d6e.onrender.com/suppliers");
     suppliersCache = await res.json();
     renderSuppliers();
     populateSupplierDropdown();
@@ -54,7 +54,7 @@ supplierForm?.addEventListener("submit", async (e) => {
   const city = document.getElementById("supplierCity").value.trim();
 
   try {
-    const res = await fetch("http://localhost:3000/supplier", {
+    const res = await fetch("https://simple-inventory-management-system-6d6e.onrender.com/supplier", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, city })
@@ -100,7 +100,7 @@ inventoryForm?.addEventListener("submit", async (e) => {
   const supplierId = document.getElementById("supplierSelect").value;
 
   try {
-    const res = await fetch("http://localhost:3000/inventory", {
+    const res = await fetch("https://simple-inventory-management-system-6d6e.onrender.com/inventory", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ productName, category, quantity, price, supplierId })
@@ -140,7 +140,7 @@ searchForm?.addEventListener("submit", async (e) => {
   searchResults.innerHTML = "<p>Loading...</p>";
 
   try {
-    const res = await fetch("http://localhost:3000/search?" + params.toString());
+    const res = await fetch("https://simple-inventory-management-system-6d6e.onrender.com/search?" + params.toString());
     const data = await res.json();
 
     if (!res.ok) {
@@ -237,7 +237,7 @@ function renderBySupplier(data) {
 
 async function loadInventoryBySupplier() {
   try {
-    const res = await fetch("http://localhost:3000/by-supplier");
+    const res = await fetch("https://simple-inventory-management-system-6d6e.onrender.com/by-supplier");
     const data = await res.json();
     renderBySupplier(data);
   } catch (err) {

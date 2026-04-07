@@ -1,18 +1,1 @@
-# Task Progress: Simple Inventory Search Feature
-
-**Completed:**
-- [x] Fixed ESM/CommonJS backend/server.cjs (npm start works)
-- [x] Fixed CORS for Live Server (127.0.0.1:5500)
-- [x] Fixed search 404 → absolute `http://localhost:3000/search`
-- [x] Added /by-supplier endpoint (groups real inventory.json by suppliers.json)
-- [x] By Supplier tab fetches backend data
-
-**Remaining:**
-- [ ] Add supplier form → POST /supplier → list
-- [ ] Inventory form → dropdown from GET /suppliers → POST /inventory
-- [ ] Auto-refresh By Supplier after adds
-- [ ] Test full CRUD flow
-
-Run backend: `npm start` in backend/
-Open public/index.html with Live Server
-
+# Backend Deployed to Render\n✅ Git repo set up\n✅ Backend deployed: https://simple-inventory-management-system-6d6e.onrender.com\n✅ Frontend updated to use Render URL\n\n## Next Steps:\n- [ ] Test frontend locally (Live Server on public/index.html) - should connect to Render backend\n- [ ] Deploy frontend (Netlify/Vercel/GitHub Pages)\n- [ ] Add Render Postgres for persistent data\n- [ ] Update CORS in backend for production frontend domain\n\n## Test Commands:\n```bash\n# Test backend\ncurl https://simple-inventory-management-system-6d6e.onrender.com/suppliers\n\n# Serve frontend locally\n# Use VSCode Live Server on public/index.html\n```\n
