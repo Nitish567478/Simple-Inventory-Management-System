@@ -246,4 +246,3 @@ async function loadInventoryBySupplier() {
 }
 
 document.querySelector('[data-tab="by-supplier"]')?.addEventListener("click", loadInventoryBySupplier);
-

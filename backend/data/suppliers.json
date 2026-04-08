@@ -33,5 +33,10 @@
     "id": 7,
     "name": "nitish",
     "city": "ranchi"
+  },
+  {
+    "id": 8,
+    "name": "Kumar",
+    "city": "Giridih"
   }
 ]

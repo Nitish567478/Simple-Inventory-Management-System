@@ -323,5 +323,13 @@
     "quantity": 5,
     "price": 60,
     "supplier": "nitish"
+  },
+  {
+    "id": 602,
+    "productName": "Mobile 5g",
+    "category": "Electronics",
+    "quantity": 6,
+    "price": 15000,
+    "supplier": "Kumar"
   }
 ]
